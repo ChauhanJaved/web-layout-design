@@ -64,7 +64,6 @@ body {
     line-height: 50px;
     text-align: center;
     background-color: lightgray;
-
 }
 .clearfix::after {
     content: "";
