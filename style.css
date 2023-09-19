@@ -9,6 +9,12 @@ body {
     padding: 20px;
 }
 
+hr {
+    border-style:double;
+    width: 60%;
+    margin: auto;    
+}
+
 #wrapper {
     display: flex;
     flex-direction: column;

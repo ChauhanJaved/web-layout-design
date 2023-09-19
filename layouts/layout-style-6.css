@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial;    
+}
+
+body {        
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#wrapper-div {
+    width: 60%;    
+    margin: auto;
+}
+
+#logo-nav-div {
+    display:flex; 
+    width: 100%;    
+}
+
+#logo-div {
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+    min-height: 50px;
+    background-color: lightgray;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#nav-div {
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+    min-height: 50px;
+    background-color: lightgray;
+}        
+
+#header-banner-div {
+    display: flex;
+    align-items: center;
+    justify-content:center;    
+    min-height: 75px;
+    background-color: lightgray;
+    margin-top: 10px;
+}
+
+#intro-text-div {
+    display: flex;
+    align-items: center;
+    justify-content:center;    
+    min-height: 70px;
+    background-color: lightgray;
+    margin-top: 10px;
+}
+
+#main-div {
+    display:flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.box-div {
+  display: flex;
+  align-items: center;
+  justify-content:center;  
+  flex-basis: 30%;
+  background-color: lightgray;
+  min-height: 400px;  
+}
+.box-div:nth-child(2){
+    margin-left: 5%;
+    margin-right: 5%;
+}             
+
+#footer {
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+    min-height: 30px;
+    background-color: lightgray;
+    margin-top: 10px;
+}
