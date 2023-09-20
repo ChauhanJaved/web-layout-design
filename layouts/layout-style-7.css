@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#warraper-div {
+    width: 60%;
+    margin: auto;     
+}
+
+#logo-div {
+    min-height: 50px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    font-weight: bold;
+}
+
+#main-div {
+    display: flex;
+    justify-content: space-between;
+    min-height: 600px;        
+    margin-top: 10px;
+}
+
+#left-div {
+    width: 20%;    
+}
+
+#side-bar-div {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+#nav-div{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#right-div {
+    width: 75%;    
+}
+
+#header-banner-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    background-color: lightgray;    
+}
+
+#body-area-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    min-height: 490px;
+    background-color: lightgray;
+    font-weight: bold;
+}
+#footer {
+    min-height: 40px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;  
+    justify-content: center;      
+    margin-top: 10px;
+}
